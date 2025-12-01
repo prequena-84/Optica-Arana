@@ -1,0 +1,94 @@
+## Client
+# Logs
+client/logs
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+
+client/node_modules
+client/dist
+client/build
+client/dist-ssr
+client/*.local
+client/.env
+
+# Editor directories and files
+client/.vscode/*
+client/!.vscode/extensions.json
+client/.idea
+client/.DS_Store
+client/*.suo
+client/*.ntvs*
+client/*.njsproj
+client/*.sln
+client/*.sw?
+# End Client
+
+#Server Nest
+# compiled output
+server-nest/dist
+server-nest/node_modules
+server-nest/build
+server-nest/tasks
+
+# Logs
+server-nest/logs
+server-nest/*.log
+server-nest/npm-debug.log*
+server-nest/pnpm-debug.log*
+server-nest/yarn-debug.log*
+server-nest/yarn-error.log*
+server-nest/lerna-debug.log*
+
+# OS
+server-nest/.DS_Store
+
+# Tests
+server-nest/coverage
+server-nest/.nyc_output
+
+# IDEs and editors
+server-nest/.idea
+server-nest/.project
+server-nest/.classpath
+server-nest/.c9/
+server-nest/*.launch
+server-nest/.settings/
+server-nest/*.sublime-workspace
+
+# IDE - VSCode
+server-nest/.vscode/
+server-nest/!.vscode/settings.json
+server-nest/!.vscode/tasks.json
+server-nest/!.vscode/launch.json
+server-nest/!.vscode/extensions.json
+
+# dotenv environment variable files
+server-nest/.env
+server-nest/.env.development.local
+server-nest/.env.test.local
+server-nest/.env.production.local
+server-nest/.env.local
+
+# temp directory
+server-nest/.temp
+server-nest/.tmp
+
+# Runtime data
+server-nest/pids
+server-nest/*.pid
+server-nest/*.seed
+server-nest/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+server-nest/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# End Server Nest
+
+#Server Express
+server-express/node_modules/
+server-express/.env
+server-express/build/
