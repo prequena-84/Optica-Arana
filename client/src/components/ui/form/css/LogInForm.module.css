@@ -1,0 +1,44 @@
+.containerDiv {
+    position: relative;
+    display: flex;
+    gap: .30rem;
+}
+
+.containerForm {
+    flex:             1.5;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    padding:          1.5rem ;
+    background-color: var( --backgroundForm );
+}
+
+.containerFieldset {
+    width: 30vw;
+}
+
+.inputEmail, .inputPassword {
+    background-color: var( --colorBlanco ) !important;
+}
+
+.containerForgotpassword {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    margin-top:      1rem;
+}
+
+.containerBtnLogin {
+    display:         flex;
+    justify-content: space-around;
+    align-items:     center;
+    margin-top:      1rem;;
+}
+
+.btnGetInto {
+    width: 14vw;
+}
+
+.btnClear {
+    width: 14vw;
+}

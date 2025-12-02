@@ -1,0 +1,36 @@
+.containerForm {
+    flex:             1.5;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    padding:          1.5rem ;
+    background-color: var( --colorWhite );
+    border:           solid 1px black
+}
+
+.containerFieldset {
+    width: 30vw;
+}
+
+.containerInput, .containerInputPassword {
+    margin-top: 1rem;
+}
+
+.input, .inputPassword {
+    background-color: var( --backgroundForm ) !important;
+}
+
+.containerBtnSingIn {
+    display:         flex;
+    justify-content: space-around;
+    align-items:     center;
+    margin-top:      1rem;;
+}
+
+.btnGetInto {
+    width: 14vw;
+}
+
+.btnClear {
+    width: 14vw;
+}

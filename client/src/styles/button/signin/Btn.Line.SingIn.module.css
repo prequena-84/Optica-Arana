@@ -1,0 +1,19 @@
+.btn-set-login {
+    color: var( --color-logIn );
+    background-color: var( --color-formLogIn );
+    border: solid 1px var( --color-formLogIn );
+}
+
+.btn-set-login:hover {
+    color: var( --color-logIn );
+    background-color: white;
+}
+
+.btn-set-login:focus,
+.btn-set-login:focus-visible,
+.btn-set-login:active,
+.btn-set-login.active {
+    background-color: var(--color-formLogIn) !important;
+    border-color: var(--color-formLogIn) !important;
+    color: var(--color-logIn) !important;
+}

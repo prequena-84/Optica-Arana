@@ -1,0 +1,7 @@
+.heroSvg {
+    position:   relative;
+    z-index:    1;
+    width:      3rem;
+    height:     3rem;
+    object-fit: cover;
+}

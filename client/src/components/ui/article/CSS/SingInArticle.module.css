@@ -1,0 +1,27 @@
+.containerArticle {
+    flex:            1;
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    justify-content: center;
+    padding:         1.5rem ;
+    gap:             1.5rem;
+    background:      var( --backgroundAsideSingIN );
+    color:           var( --colorWhite );
+}
+
+.containerBtnSingIn {
+    width: 75%;
+}
+
+.btnSingIn {
+    color:         var( --colorWhite ) !important;
+    border:        solid 1px var( --colorWhite ) !important;
+    border-radius: 1.5rem !important;
+}
+
+.btnSingIn:hover {
+    background-color: var( --colorWhite ) !important;
+    color:            var( --backgroundAsideSingIN ) !important;
+    border:           solid 1px var(--colorWhite);
+}
