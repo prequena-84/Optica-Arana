@@ -13,7 +13,8 @@ client/dist
 client/build
 client/dist-ssr
 client/*.local
-client/.env
+client/.env.development
+client/.env.production
 
 # Editor directories and files
 client/.vscode/*
