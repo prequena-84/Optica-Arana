@@ -93,3 +93,10 @@ server-nest/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 server-express/node_modules/
 server-express/.env
 server-express/build/
+
+## Nuevo Microservicio 
+database/node_modules/
+database/.env.dev
+database/.env.prod
+database/build
+database/dist
